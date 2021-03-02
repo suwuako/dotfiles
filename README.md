@@ -1,2 +1,2 @@
 # dotfiles
-Dotfiles for ricing
+My dotfiles for ricing (mostly qtile)
