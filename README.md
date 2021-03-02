@@ -1,2 +1,2 @@
 # dotfiles
-my dotfiles
+Dotfiles for ricing
