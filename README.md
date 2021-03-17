@@ -6,3 +6,6 @@ My personal dotfiles for ricing (mostly qtile)
 
 ## License
 GNU Public License
+
+## Contributors
+megumin00
