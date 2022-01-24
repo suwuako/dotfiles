@@ -1,8 +1,9 @@
 # Dotfiles
-My personal dotfiles for ricing (mostly qtile)
+My personal dotfiles for window managers
 
 ## Directories 
-- `qtile` Qtile related rices
+- `qtile` - Qtile rices
+- `i3`    - i3 rices
 
 ## License
 GNU Public License
