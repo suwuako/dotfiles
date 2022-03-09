@@ -1,0 +1,38 @@
+general {
+        output_format = "i3bar"
+        colors = true
+	separator = "| "
+        interval = 1
+}
+
+order += "tztime local"
+order += "volume master"
+order += "memory"
+order += cpu_usage
+order += "wireless wlan0"
+
+wireless wlan0 {
+        format_up = "  %essid (%bitrate) "
+        format_down = "Network: down"
+}
+
+volume master {
+	format = "  %volume "
+        format_muted = " : (muted) %volume "
+        device = "default"
+}
+
+tztime local {
+        format = "  %H:%M:%S "
+        hide_if_equals_localtime = false
+}
+
+memory {
+        format = " Memory: %used "
+        threshold_degraded = "10%"
+        format_degraded = "MEMORY: %free"
+}
+
+cpu_usage {
+	format = " CPU: %usage "
+}
